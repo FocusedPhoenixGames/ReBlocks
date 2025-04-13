@@ -6,7 +6,7 @@
 font_names = PackedStringArray("DejaVu Sans Mono")
 subpixel_positioning = 0
 
-[sub_resource type="CodeHighlighter" id="CodeHighlighter_3qk2k"]
+[sub_resource type="GDScriptSyntaxHighlighter" id="GDScriptSyntaxHighlighter_3qk2k"]
 
 [node name="SplitScriptWindow" type="HBoxContainer"]
 custom_minimum_size = Vector2(400, 0)
@@ -43,7 +43,7 @@ theme_override_colors/font_readonly_color = Color(0.875, 0.875, 0.875, 1)
 theme_override_fonts/font = SubResource("SystemFont_r6ct2")
 text = " "
 editable = false
-syntax_highlighter = SubResource("CodeHighlighter_3qk2k")
+syntax_highlighter = SubResource("GDScriptSyntaxHighlighter_3qk2k")
 highlight_all_occurrences = true
 highlight_current_line = true
 draw_tabs = true
