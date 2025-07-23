@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://1xfpd777g8pf"]
 
-[ext_resource type="Script" path="res://addons/reblocks/ui/blocks/utilities/template_editor/collapsable_settings.gd" id="1_f0ssn"]
+[ext_resource type="Script" uid="uid://b2ir1wey2qtyo" path="res://addons/reblocks/ui/blocks/utilities/template_editor/collapsable_settings.gd" id="1_f0ssn"]
 [ext_resource type="Texture2D" uid="uid://cd243la33evh" path="res://addons/reblocks/ui/blocks/utilities/template_editor/plus.svg" id="2_mp58d"]
 [ext_resource type="Texture2D" uid="uid://dmplpvmlpcdrk" path="res://addons/reblocks/ui/blocks/utilities/template_editor/minus.svg" id="3_adq5s"]
 

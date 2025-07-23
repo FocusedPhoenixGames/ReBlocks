@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=2 format=3 uid="uid://c188gpgf4rpns"]
 
-[ext_resource type="Script" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_pmpup"]
+[ext_resource type="Script" uid="uid://cfmvxsm2ok4ek" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_pmpup"]
 
 [resource]
 script = ExtResource("1_pmpup")
@@ -14,4 +14,4 @@ display_template = "when particles are finished"
 code_template = "func _on_finished():"
 defaults = {}
 signal_name = "finished"
-scope = ""
+is_advanced = false

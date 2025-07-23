@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=2 format=3 uid="uid://cu3ru61vg6bx5"]
 
-[ext_resource type="Script" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_btxic"]
+[ext_resource type="Script" uid="uid://cfmvxsm2ok4ek" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_btxic"]
 
 [resource]
 script = ExtResource("1_btxic")
@@ -28,4 +28,4 @@ defaults = {
 "up": "W"
 }
 signal_name = ""
-scope = ""
+is_advanced = false

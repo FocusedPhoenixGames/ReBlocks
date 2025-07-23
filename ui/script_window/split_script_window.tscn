@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://c2tvodrmli2ar"]
 
-[ext_resource type="Script" path="res://addons/reblocks/ui/script_window/split_script_window.gd" id="1_pcqlh"]
+[ext_resource type="Script" uid="uid://c1esa7mkimtjv" path="res://addons/reblocks/ui/script_window/split_script_window.gd" id="1_pcqlh"]
 
 [sub_resource type="SystemFont" id="SystemFont_r6ct2"]
 font_names = PackedStringArray("DejaVu Sans Mono")

@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=2 format=3 uid="uid://0g4njflvemaa"]
 
-[ext_resource type="Script" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_u01bi"]
+[ext_resource type="Script" uid="uid://cfmvxsm2ok4ek" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_u01bi"]
 
 [resource]
 script = ExtResource("1_u01bi")
@@ -14,4 +14,4 @@ display_template = "repeat {number: INT}"
 code_template = "for __i in {number}:"
 defaults = {}
 signal_name = ""
-scope = ""
+is_advanced = false

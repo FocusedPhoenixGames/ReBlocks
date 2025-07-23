@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=2 format=3 uid="uid://dt022ilveapt5"]
 
-[ext_resource type="Script" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_llfp1"]
+[ext_resource type="Script" uid="uid://cfmvxsm2ok4ek" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_llfp1"]
 
 [resource]
 script = ExtResource("1_llfp1")
@@ -21,4 +21,4 @@ defaults = {
 "pitch": 1.0
 }
 signal_name = ""
-scope = ""
+is_advanced = false

@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=2 format=3 uid="uid://bxjjml7u3rokv"]
 
-[ext_resource type="Script" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_vyl5w"]
+[ext_resource type="Script" uid="uid://cfmvxsm2ok4ek" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_vyl5w"]
 
 [resource]
 script = ExtResource("1_vyl5w")
@@ -14,4 +14,4 @@ display_template = "play"
 code_template = "play()"
 defaults = {}
 signal_name = ""
-scope = ""
+is_advanced = false

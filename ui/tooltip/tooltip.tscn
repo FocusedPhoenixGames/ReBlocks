@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bmxco03vqyq2t"]
 
-[ext_resource type="Script" path="res://addons/reblocks/ui/tooltip/tooltip.gd" id="1_4ko6a"]
+[ext_resource type="Script" uid="uid://cmjwydpocd766" path="res://addons/reblocks/ui/tooltip/tooltip.gd" id="1_4ko6a"]
 
 [node name="Tooltip" type="RichTextLabel"]
 custom_minimum_size = Vector2(360, 48)

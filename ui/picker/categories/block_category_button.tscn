@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://bdtetj0gs45hv"]
 
-[ext_resource type="Script" path="res://addons/reblocks/ui/picker/categories/block_category_button.gd" id="1_pxxnl"]
+[ext_resource type="Script" uid="uid://y2srodxufo03" path="res://addons/reblocks/ui/picker/categories/block_category_button.gd" id="1_pxxnl"]
 [ext_resource type="Texture2D" uid="uid://g10ct6m5goi6" path="res://addons/reblocks/ui/picker/categories/icons/file_broken.svg" id="2_0c1ke"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w0e7p"]

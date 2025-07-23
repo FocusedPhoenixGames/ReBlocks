@@ -1,11 +1,11 @@
 [gd_scene load_steps=13 format=3 uid="uid://bq37yla8ya707"]
 
-[ext_resource type="Script" path="res://addons/reblocks/ui/main_panel.gd" id="1_u0xju"]
+[ext_resource type="Script" uid="uid://b4f4roenpifgk" path="res://addons/reblocks/ui/main_panel.gd" id="1_u0xju"]
 [ext_resource type="PackedScene" uid="uid://dlabt3bgmpna2" path="res://addons/reblocks/ui/picker/picker.tscn" id="2_hv5f3"]
 [ext_resource type="PackedScene" uid="uid://bm1183pm05p6a" path="res://addons/reblocks/ui/title_bar/title_bar.tscn" id="2_k54yf"]
 [ext_resource type="PackedScene" uid="uid://c6vumewgnfquy" path="res://addons/reblocks/ui/block_canvas/block_canvas.tscn" id="4_cu87g"]
 [ext_resource type="PackedScene" uid="uid://cph1k5cfximbf" path="res://addons/reblocks/drag_manager/drag_manager.tscn" id="4_yijtu"]
-[ext_resource type="Script" path="res://addons/reblocks/ui/script_window/split_script_window.gd" id="5_6plhf"]
+[ext_resource type="Script" uid="uid://c1esa7mkimtjv" path="res://addons/reblocks/ui/script_window/split_script_window.gd" id="5_6plhf"]
 
 [sub_resource type="Image" id="Image_iuq7n"]
 data = {
@@ -36,8 +36,6 @@ font_names = PackedStringArray("DejaVu Sans Mono")
 subpixel_positioning = 0
 
 [sub_resource type="GDScriptSyntaxHighlighter" id="GDScriptSyntaxHighlighter_lkv0e"]
-resource_local_to_scene = false
-resource_name = ""
 
 [node name="MainPanel" type="MarginContainer"]
 anchors_preset = 15

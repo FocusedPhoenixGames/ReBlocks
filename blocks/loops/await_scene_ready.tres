@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=2 format=3 uid="uid://bkdmiqavhqrph"]
 
-[ext_resource type="Script" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_qy2t4"]
+[ext_resource type="Script" uid="uid://cfmvxsm2ok4ek" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_qy2t4"]
 
 [resource]
 script = ExtResource("1_qy2t4")
@@ -15,4 +15,4 @@ code_template = "if not get_tree().root.is_node_ready():
 	await get_tree().root.ready"
 defaults = {}
 signal_name = ""
-scope = ""
+is_advanced = false

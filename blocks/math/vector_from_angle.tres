@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=2 format=3 uid="uid://c7a6wnxegkfd5"]
 
-[ext_resource type="Script" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_1p1ve"]
+[ext_resource type="Script" uid="uid://cfmvxsm2ok4ek" path="res://addons/reblocks/code_generation/block_definition.gd" id="1_1p1ve"]
 
 [resource]
 script = ExtResource("1_1p1ve")
@@ -14,4 +14,4 @@ display_template = "vector from {angle: FLOAT}"
 code_template = "Vector2.from_angle({angle})"
 defaults = {}
 signal_name = ""
-scope = ""
+is_advanced = false

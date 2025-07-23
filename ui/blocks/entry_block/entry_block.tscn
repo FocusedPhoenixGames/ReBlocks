@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://d2fibflv3ojys"]
 
-[ext_resource type="Script" path="res://addons/reblocks/ui/blocks/entry_block/entry_block.gd" id="2_3ik8h"]
-[ext_resource type="Script" path="res://addons/reblocks/ui/blocks/utilities/background/background.gd" id="2_yrw8l"]
+[ext_resource type="Script" uid="uid://i1nt7sa7gn5r" path="res://addons/reblocks/ui/blocks/entry_block/entry_block.gd" id="2_3ik8h"]
+[ext_resource type="Script" uid="uid://cv33xhf4grjdh" path="res://addons/reblocks/ui/blocks/utilities/background/background.gd" id="2_yrw8l"]
 [ext_resource type="PackedScene" uid="uid://c7puyxpqcq6xo" path="res://addons/reblocks/ui/blocks/utilities/drag_drop_area/drag_drop_area.tscn" id="3_swkpp"]
 [ext_resource type="PackedScene" uid="uid://b1xvp3u11h41s" path="res://addons/reblocks/ui/blocks/utilities/template_editor/template_editor.tscn" id="4_1gwsm"]
 [ext_resource type="PackedScene" uid="uid://b1oge52xhjqnu" path="res://addons/reblocks/ui/blocks/utilities/snap_point/snap_point.tscn" id="4_yj206"]
