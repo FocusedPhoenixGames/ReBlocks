@@ -128,7 +128,12 @@ func _on_template_editor_drag_started(offset: Vector2):
 func _get_format_string() -> String:
 	if not definition:
 		return ""
-
+	
+	if definition.property_name:
+		var domain: TranslationDomain = TranslationServer.get_or_add_domain("godot.properties")
+		var translated_property: String = domain.translate(definition.property_name.capitalize())
+		return tr(definition.display_template) % translated_property.to_lower()
+	
 	return tr(definition.display_template)
 
 
