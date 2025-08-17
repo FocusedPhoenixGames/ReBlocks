@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://w5cfqqk7mv2"]
+
+[ext_resource type="Script" uid="uid://brrbmqhlc5ifc" path="res://addons/reblocks/ui/picker/categories/variable_category/delete_variables_button.gd" id="1_ychjf"]
+[ext_resource type="PackedScene" uid="uid://dc2k7cf6k25lj" path="res://addons/reblocks/ui/picker/categories/variable_category/delete_variables_dialog.tscn" id="2_cqggu"]
+[ext_resource type="Texture2D" uid="uid://b3nns27tt752n" path="res://addons/reblocks/ui/picker/categories/icons/delete_icon.tres" id="2_ns22x"]
+
+[node name="DeleteVariablesButton" type="MarginContainer"]
+script = ExtResource("1_ychjf")
+
+[node name="DeleteButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Delete Variables"
+icon = ExtResource("2_ns22x")
+
+[node name="DeleteVariablesDialog" parent="." instance=ExtResource("2_cqggu")]
+unique_name_in_owner = true
+visible = false
+
+[connection signal="pressed" from="DeleteButton" to="." method="_on_delete_button_pressed"]
+[connection signal="delete_variables" from="DeleteVariablesDialog" to="." method="_on_delete_variables_dialog_delete_variables"]
