@@ -16,6 +16,7 @@ data = {
 image = SubResource("Image_cqggu")
 
 [node name="DeleteVariablesButton" type="MarginContainer"]
+size_flags_horizontal = 0
 script = ExtResource("1_ychjf")
 
 [node name="DeleteButton" type="Button" parent="."]

@@ -357,8 +357,8 @@ func _create_variable(variable: VariableDefinition):
 	undo_redo.add_do_property(_context.block_script, "variables", new_variables)
 	undo_redo.commit_action()
 
-	_picker.reload_blocks()
 	_update_script()
+	_picker.reload_blocks()
 
 
 func _delete_variables(variables_to_delete: Array):
@@ -380,4 +380,5 @@ func _delete_variables(variables_to_delete: Array):
 	undo_redo.add_do_property(_context.block_script, "variables", new_variables)
 	undo_redo.commit_action()
 
+	_update_script()
 	_picker.reload_blocks()
